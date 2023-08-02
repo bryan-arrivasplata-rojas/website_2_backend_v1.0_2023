@@ -1,0 +1,24 @@
+/*.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0px !important;
+    border: 0px !important;
+    margin: 0px !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    border: 0px !important;
+    background:none !important;
+}*/
+.app .card{
+    margin: 0px !important;
+}
+.card-header{
+    place-items: center;
+    background-color: #ffffff;
+    border-bottom:0px;
+    border-radius:5px !important;
+}
+.card-header h5 {
+    margin:0px;
+}
+.container-tabla{
+    overflow-x: auto;
+}

@@ -1,0 +1,39 @@
+.list{
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.list:hover{
+  background: #6aa9e7;
+}
+.list a{
+  text-decoration: none;
+  color: white;
+}
+.list a i{
+  padding: 10px;
+}
+.content {
+  margin-left: 120px; /* Ancho del sidebar */
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-list {
+  max-height: 400px; /* Establece la altura máxima del contenido de la lista */
+  padding-right: 10px; /* Agrega un poco de espacio a la derecha para la barra de desplazamiento */
+  padding-left: 0px;
+}
+
+.sidebar-list li {
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-right:20px;
+}
+
+.hide-sidebar {
+  transform: translateX(-120px);
+}
+.hide-content {
+  margin-left: 0;
+  transition: margin-left 0.5s ease;
+}

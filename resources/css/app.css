@@ -1,0 +1,121 @@
+#fondo {
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("../img/fondo.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+#logo_login{
+    width: 200px;
+}
+.card-header{
+    background-color: transparent;
+    border: none;
+}
+@media only screen and (max-device-width: 768px) {
+    .contenedor{
+        width: 100%;
+        height: 100%;
+        border-radius:2vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (min-device-width: 992px){
+    .contenedor{
+        width: 50%;
+        height: 100%;
+        border-radius:2vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.inputLogin{
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    border-radius: 0px !important;
+    color: white !important;
+}
+
+.inputLogin::placeholder{
+    color:white !important;
+}
+.inputLogin.form-control:focus {
+    outline:none !important;
+    outline-width: 1 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+input#password:focus-visible span{
+    color: white !important;
+}
+
+.textLogin{
+    width: 50vh;
+    position:absolute;
+    left: 0px !important;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.buttonLogin{
+    margin-top:2vh;
+    text-align: center;
+    width: 25vh;
+    background-color: white !important;
+    color: black !important;
+    border-radius:10vh !important;
+    border-top:none !important;
+    border-bottom:none !important;
+    border-left:none !important;
+    border-right:none !important;
+}
+.buttonLogin.btn:focus{
+    outline:none !important;
+    outline-width: none !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.input-group-text{
+    background: none;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+}
+.select2{
+    width: 100% !important;
+}
+.app{
+    width: 100%;
+}
+.loader{
+    display: flex;
+    background: white;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    place-content: center;
+
+}
